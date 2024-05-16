@@ -183,10 +183,7 @@ export default {
                 console.error(error); // Handle errors properly
             }
         },
-        // submitForm() {
-        //     this.$inertia.post(route('todo.store'), this.task)
-        //     this.task.title = ''
-        // },
+
 
         taskEditModal(task_id) {
             this.$inertia.get(route('todo.edit', task_id), {
